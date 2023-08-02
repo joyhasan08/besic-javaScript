@@ -22,11 +22,11 @@ var workSts = ["student", "intern", "student","working from home","intren"];
 const person = [
     {
         name: "S",
-        mail:"saaaaaaaa"
+        mail:"saaaaaaaa",
     },
     {
         name: "x",
-        mail:"saabbb"
+        mail:"saabbb",
     
     }
 ]
