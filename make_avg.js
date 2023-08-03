@@ -21,6 +21,20 @@ function bar(){
 bar();
 foo();
 
-// practice 4
+// practice 1 tree number
+let number_1 = 3;
+let number_2 = 10;
+let number_3 = 4;
+
+if( number_1 > number_2 && number_1 > number_3){
+    console.log('largest number is', number_1);
+}
+else if( number_2 > number_1 && number_2 > number_3){
+    console.log('largest number is',number_2);
+}
+else{
+    console.log("largest number is",number_3);
+}
+
 
 
