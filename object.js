@@ -9,3 +9,6 @@ console.log(mobileInfo);
 console.log(mobileInfo.os);
 mobileInfo.name = "Oppo";
 console.log(mobileInfo);
+
+
+
