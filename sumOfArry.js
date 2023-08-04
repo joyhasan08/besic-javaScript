@@ -30,7 +30,7 @@ function getOddNumbers (numbersOfArry) {
     // console.log(foundOddNum);
     return foundOddNum;
 }
-
+//out put of two function
 let oddNum = getOddNumbers(givenArry);
 console.log(oddNum);
 let sumOfOddNum = getSumOfAnArry(oddNum);
