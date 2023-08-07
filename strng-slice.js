@@ -11,3 +11,4 @@ console.log(sentenceOfLyrics);
 let sliceOfLyrics = lyrics.slice(0,20); // start from 0 index end at 19 1index
 console.log(sliceOfLyrics);
 
+
