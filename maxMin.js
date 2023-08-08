@@ -16,4 +16,7 @@ function minNumber(x,y,z) {
     return isMinNumber;
 }
 console.log(minNumber(a,b,c));
- 
+
+
+
+
