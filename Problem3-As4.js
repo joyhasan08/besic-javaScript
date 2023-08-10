@@ -5,7 +5,7 @@ let inputArry =[-132,132];
 
 function sortMaker(arr) {
     if(arr[0] < 0 || arr[1] < 0){
-        return'Invalid number'
+        return 'Invalid number'
     }
     else if(arr[0] >= 0 && arr[1] >= 0 && arr[1] > arr[0]){
         let maxNumber = arr[1];

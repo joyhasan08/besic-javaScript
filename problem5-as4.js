@@ -1,12 +1,11 @@
 
-let money = [1,2,5,20];
+let money = [1,2,5];
 let bill = 10;
 
 function canPay(changeArray, totalDue) { 
     let totalMoney = 0;
-    if(money.length === 0 || bill.length === 0){
+    if(changeArray.length === 0){
         let output = 'pleas enter a valid number';
-
         return output;
     }
     else {
@@ -18,7 +17,7 @@ function canPay(changeArray, totalDue) {
         if (totalMoney<totalDue) {
             return false;
         }
-        else if(totalMoney>totalDue){
+        else if(totalMoney>=totalDue){
             return true;
         }
     }
