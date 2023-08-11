@@ -2,9 +2,14 @@
 
 function cubeNumber(number) {
 
-    let result = Math.pow(number,3);
-    return result;
+    if( typeof number === 'string' ){
+        return 'Invalid input type'
+    }
+    else{
+        let result = Math.pow(number,3);
+        return result;
+    }  
  }
 
 
- console.log(cubeNumber(3));
+ console.log(cubeNumber(-5));

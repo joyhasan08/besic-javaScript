@@ -1,7 +1,7 @@
 
 // done
 
-let inputArry =[-132,132];
+let inputArry =[132,132];
 
 function sortMaker(arr) {
     if(arr[0] < 0 || arr[1] < 0){
